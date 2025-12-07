@@ -1,0 +1,96 @@
+/* -----------------------------
+   CSSA PAGE ONLY
+   Applies ONLY when <body id="cssa-page">
+------------------------------ */
+
+#cssa-page {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+    padding-bottom: 40px;
+}
+
+/* ---------- HEADER ---------- */
+#cssa-page header {
+    background: #fff;
+    padding: 20px 30px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+#cssa-page header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* ---------- NAV ---------- */
+#cssa-page nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#cssa-page nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#cssa-page nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+/* ---------- MAIN LAYOUT ---------- */
+#cssa-page main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* ---------- SECTION DEFAULT ---------- */
+#cssa-page section {
+    background: #fff;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#cssa-page section h2 {
+    margin-bottom: 10px;
+}
+
+/* ---------- IMAGES ---------- */
+#cssa-page section img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 15px auto;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* ---------- QUICK LINKS ---------- */
+#cssa-page #quick-links ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+#cssa-page #quick-links li {
+    margin: 10px 0;
+}
+
+#cssa-page #quick-links a {
+    font-weight: bold;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* ---------- FOOTER ---------- */
+#cssa-page footer {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-top: 1px solid #ccc;
+}
